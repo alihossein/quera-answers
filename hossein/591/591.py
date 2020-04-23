@@ -1,5 +1,5 @@
+# question : https://quera.ir/problemset/university/591/
 n = int(input())
-
 STAR = "*"
 SPACE = ' '
 print(n * STAR)
