@@ -1,6 +1,7 @@
+# question : https://quera.ir/problemset/university/9773
 ghotr = int(input())
 ghotr /= 2
-ghotr=int(ghotr)+1
+ghotr = int(ghotr) + 1
 output = ""
 
 
@@ -33,7 +34,7 @@ for i in reversed(range(ghotr - 1)):
         output += " "
     for k in range((i * 2) + 1):
         output += "*"
-    for l in range(2 * (ghotr - i) -2):
+    for l in range(2 * (ghotr - i) - 2):
         output += " "
     for k in range((i * 2) + 1):
         output += "*"

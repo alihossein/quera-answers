@@ -1,3 +1,4 @@
+# question : https://quera.ir/problemset/university/618
 ghotr = int(input())
 ghotr+=1
 output = ""
