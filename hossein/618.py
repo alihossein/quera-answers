@@ -1,14 +1,15 @@
-ghotr = int(input())
-ghotr+=1
+# question : https://quera.ir/problemset/university/618
+diameter = int(input())
+diameter += 1
 output = ""
-for i in range(ghotr):
-    for j in range(ghotr - i - 1):
+for i in range(diameter):
+    for j in range(diameter - i - 1):
         output += " "
     for k in range((i * 2) + 1):
         output += "*"
     output += "\n"
-for i in reversed(range(ghotr - 1)):
-    for j in range(ghotr - i - 1):
+for i in reversed(range(diameter - 1)):
+    for j in range(diameter - i - 1):
         output += " "
     for k in range((i * 2) + 1):
         output += "*"
