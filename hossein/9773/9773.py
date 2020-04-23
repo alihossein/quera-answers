@@ -25,5 +25,4 @@ for i in reversed(range(diameter - 1)):
     output += "\n"
 else:
     output = output[0: len(output) - 1]
-
 print(output)
