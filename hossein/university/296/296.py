@@ -1,3 +1,4 @@
+#https://quera.ir/problemset/university/296
 n = int(input())
 SHARP = '#'
 SPACE = ' '
