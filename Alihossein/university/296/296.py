@@ -1,4 +1,4 @@
-import math
+# question : https://quera.ir/problemset/university/296/
 
 n = int(input())
 for i in range(1, n + 1):
