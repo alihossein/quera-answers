@@ -3,7 +3,6 @@
 MOLANA_HAFEZ = ['MOLANA', 'HAFEZ']
 input_text = [input() for i in range(5)]
 
-x = 'N-MOLANA1'
 result = []
 for i, line in enumerate(input_text):
     if MOLANA_HAFEZ[0] in line or MOLANA_HAFEZ[1] in line:
