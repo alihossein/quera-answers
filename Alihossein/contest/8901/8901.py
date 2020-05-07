@@ -1,3 +1,5 @@
+# question : https://quera.ir/problemset/contest/8901
+
 x_n = input().split(' ')
 x = x_n[1]
 n = int(x_n[0])
