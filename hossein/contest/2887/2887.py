@@ -11,16 +11,12 @@ def find_gcd(my_list):
             first, second = second, first % second
         return first
 
-    i = 1
     result = my_list[0]
-    while i != len(my_list):
-        result = gcd(result, my_list[i])
+    for val in my_list:
+        result = gcd(result, val)
         if result == 1:
             return 1
-        else:
-            i = i + 1
     return result
-
 
 addiction_level = find_gcd(A)
 result = 0
