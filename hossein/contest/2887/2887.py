@@ -18,6 +18,7 @@ def find_gcd(my_list):
             return 1
     return result
 
+
 addiction_level = find_gcd(A)
 result = 0
 for val in A:
