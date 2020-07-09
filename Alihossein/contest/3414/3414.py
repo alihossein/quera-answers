@@ -1,3 +1,4 @@
+# question : https://quera.ir/problemset/contest/3414/
 inputs = input()
 inputs = inputs.split(' ')
 
